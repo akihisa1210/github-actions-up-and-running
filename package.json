@@ -1,0 +1,26 @@
+{
+  "name": "github-actions-up-and-running",
+  "version": "1.0.0",
+  "description": "『GitHub Actions 実践入門』学習用のリポジトリです。",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akihisa1210/github-actions-up-and-running.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akihisa1210/github-actions-up-and-running/issues"
+  },
+  "homepage": "https://github.com/akihisa1210/github-actions-up-and-running#readme",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^10.0.2",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.1",
+    "prettier": "^2.0.4"
+  }
+}
